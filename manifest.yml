@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ProcuretoPay Nestley
+  host: ProcuretoPay-Nestley
+  disk_quota: 1024M
+  services:
+  - ProcuretoPay Nestley-cloudantNoSQLDB
